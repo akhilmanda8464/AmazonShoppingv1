@@ -1,0 +1,36 @@
+
+
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="com.TestNGTests.OrangeHRM">
+      <methods>
+        <include name="LaunchApp"/>
+        <include name="EnterLoginDetails"/>
+        <include name="VerifyLogin"/>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  <test thread-count="5" name="Test2">
+    <classes>
+      <class name="com.TestNGTests.OrangeHRM">
+      <methods>
+        <include name="LaunchApp"/>
+        <include name="EnterLoginDetails"/>
+        <include name="NavigateToMyInfo"/>
+        <include name="VerifyMyInfo"/>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  <test thread-count="5" name="Test3">
+    <classes>
+      <class name="com.TestNGTests.FirstTest"/>
+      <methods>
+        <include name="Test_OrangeHRM"/>
+        <include name="Test_Google"/>
+      </methods>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

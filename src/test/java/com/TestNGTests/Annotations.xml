@@ -1,0 +1,13 @@
+
+
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="com.TestNGTests.AnnotationsTest">
+      <methods>
+        <include name="testmethod1"/>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  </suite>
