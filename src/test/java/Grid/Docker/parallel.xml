@@ -2,7 +2,10 @@
 <suite name="Suite" parallel="classes">
   <test thread-count="5" name="Test">
     <classes>
-      
+      <class name="Grid.Docker.TestME1"/>
+      <class name="Grid.Docker.TestME2"/>
+      <class name="Grid.Docker.TestME3"/>
+      <class name="Grid.Docker.TestME4"/>
       <class name="Grid.Docker.TestGC5"/>
     </classes>
   </test> <!-- Test -->
