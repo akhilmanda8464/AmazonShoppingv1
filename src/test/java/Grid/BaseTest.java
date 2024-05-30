@@ -20,7 +20,7 @@ import org.testng.annotations.Parameters;
 public class BaseTest {
 	
 	protected static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<RemoteWebDriver>();
-    public static String remote_url = "http://172.31.144.1:4444/";
+    public static String remote_url = "http://localhost:4442/";
     public Capabilities capabilities;
  
     @Parameters({"browser"})
