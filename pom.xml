@@ -10,7 +10,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
                 <configuration>
-                  <suiteXmlFiles>                        <suiteXmlFile>${xmlFilePath}</suiteXmlFile>
+                  <suiteXmlFiles>                        <suiteXmlFile>${C:\Users\Rhea's\eclipse-workspace\Amazon\src\test\java\Grid\testGrid.xml}</suiteXmlFile>
                     </suiteXmlFiles>  
                 </configuration>
             </plugin>
