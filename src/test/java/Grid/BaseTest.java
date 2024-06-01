@@ -32,6 +32,10 @@ public class BaseTest {
         if(browser.equals("firefox")) {
             capabilities = new FirefoxOptions();
         } else if (browser.equals("chrome")) {
+		ChromeOptions options = new ChromeOptions();
+        	options.addArguments("no-sandbox");
+        	options.addArguments("disable-dev-shm-usage");
+        	options.addArguments("disable-gpu");
             capabilities = new ChromeOptions();
         }// else if (browser.equals("edge")) {
            // capabilities = new EdgeOptions();
