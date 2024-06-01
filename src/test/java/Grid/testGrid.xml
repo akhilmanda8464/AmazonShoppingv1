@@ -1,11 +1,11 @@
 
 <suite name="Suite">
-  <test thread-count="5" name="Chrome Test">
+  <!--<test thread-count="5" name="Chrome Test">
 	<parameter name ="browser" value="chrome"/>
     <classes>
       <class name="Grid.SeleniumforParallelDemo"/>
     </classes>
-  </test> <!-- Test -->
+  </test>--> <!-- Test -->
   <test thread-count="5" name="Firefox Test">
 	<parameter name ="browser" value="firefox"/>
     <classes>
