@@ -12,10 +12,10 @@
       <class name="Grid.SeleniumforParallelDemo"/>
     </classes>
   </test> <!-- Test -->
-  <!--<test thread-count="5" name="Edge Test">
+  <test thread-count="5" name="Edge Test">
 	<parameter name ="browser" value="edge"/>
     <classes>
       <class name="Grid.SeleniumforParallelDemo"/>
     </classes>
-  </test>--><!-- Test -->
+  </test><!-- Test -->
 </suite> <!-- Suite -->
